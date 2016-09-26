@@ -1,0 +1,21 @@
+{
+  "name": "example_tslib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "doc": "src/*.ts",
+    "doc:x": "src/*.ts"
+  },
+  "scripts": {
+    "doc": "typedoc --mode modules --out docs src",
+    "doc:x": "typedoc --mode modules --json ast/ast.json src",
+    "watch": "npm-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-watch": "^0.1.6",
+    "typedoc": "^0.4.5"
+  }
+}
